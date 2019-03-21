@@ -1,5 +1,5 @@
 <?php
-    echo "Data";
+    // echo "Data";
 ?>
 <!DOCTYPE html>
 <html>
