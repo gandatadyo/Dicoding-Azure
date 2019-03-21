@@ -12,7 +12,7 @@
 	$blobClient = BlobRestProxy::createBlobService($connectionString);
 
 	$fileToUpload = "HelloWorld.txt";
-	$fileToUpload =  basename($_FILES["fileToUpload"]["name"]);
+	// $fileToUpload =  basename($_FILES["fileToUpload"]["name"]);
 
 	$createContainerOptions = new CreateContainerOptions();
 	$createContainerOptions->setPublicAccess(PublicAccessType::CONTAINER_AND_BLOBS);
